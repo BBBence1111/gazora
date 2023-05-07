@@ -1,0 +1,47 @@
+.body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+	margin: 15% auto;
+	max-width: 50%;
+	padding: 30px;
+	text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+h1 {
+	color: #e74c3c;
+	font-size: 50px;
+	font-weight: bold;
+	margin: 0;
+    line-height: 1em;
+}
+
+p {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+a {
+	color: #fff;
+	background-color: #3498db;
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: background-color 0.2s ease-in-out;
+}
+
+a:hover {
+	background-color: #2980b9;
+}
